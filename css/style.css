@@ -1,6 +1,5 @@
-
-
-html,body{
+html,
+body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -9,7 +8,9 @@ html,body{
 
 /* global Classes */
 
-
+a {
+    text-decoration: none;
+}
 
 
 /* global Classes  end*/
@@ -18,15 +19,16 @@ html,body{
 
 /* navbar */
 
-.nav{
+.nav {
     background: #fff;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 40vh;
     overflow: hidden;
 }
-.nav .nav-brand a{
+
+.nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1.6rem;
-    text-decoration: none;
+
 }
