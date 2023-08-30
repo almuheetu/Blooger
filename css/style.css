@@ -1,3 +1,4 @@
+
 html,
 body {
     margin: 0%;
@@ -57,6 +58,8 @@ ul {
     padding: 1rem 0;
     display: block;
 }
-.nav .social{
+
+.nav .social {
     padding: 1.4rem 0;
 }
+
