@@ -132,6 +132,15 @@ ul {
 }
 
 
+/* ------------Main-content---------- */
+
+ main .site-title{
+    background: url('../assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+ }
+
+/* ------------Main-content End---------- */
 
 
 
