@@ -78,6 +78,9 @@ button.btn{
 span{
     font-size: var(--Abel);
 }
+.container{
+    margin: 0 5vw;
+}
 /* global Classes  end*/
 
 
@@ -194,6 +197,7 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%;
+    background-size: 65%;
 }
 main .blog .blog-post{
     padding-top: 6rem;
@@ -202,7 +206,7 @@ main .blog-post .blog-content{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 79%;
+    width: 80%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
@@ -219,6 +223,32 @@ main .blog-content .btn-blog{
     display: block;
 }
 
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-next .owl-nav-next {
+	background: transparent !important;
+	color: var(--text-gray) !important;
+	font-size: 2rem !important;
+}
+.owl-nav .owl-prev .owl-nav-prev {
+	background: transparent !important;
+	color: var(--text-gray) !important;
+	font-size: 2rem !important;
+}
+
+.owl-theme .owl-nav[class*='owl-']:hover{
+    background: transparent !important;
+    color: var(--midnight) !important;
+}
+
+.owl-theme .owl-nav[class*='owl-']{
+    outline: none;
+}
 /* ------------Main-content End---------- */
 
 
