@@ -183,6 +183,16 @@ button.btn{
     color: var(--white);
  }
 
+/* blog */
+
+main .blog{
+    background: url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
 /* ------------Main-content End---------- */
 
 
