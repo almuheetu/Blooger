@@ -271,7 +271,10 @@ section .container .owl-nav {
 
 /* site-content */
 
-main .site-content
+main .site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 
 /* ------------Main-content End---------- */
 
