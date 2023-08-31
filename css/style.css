@@ -52,22 +52,22 @@ ul {
     list-style-type: none;
 }
 
-h1{
+h1 {
     font-family: var(--Lexend);
     font-size: 2.5rem;
 }
 
-h2{
+h2 {
     font-family: var(--Lexend);
 }
 
-h3{
-   font-family: var(--Abel);
-   font-size: 1.3rem; 
+h3 {
+    font-family: var(--Abel);
+    font-size: 1.3rem;
 }
 
 
-button.btn{
+button.btn {
     border: none;
     border-radius: 2rem;
     padding: 1rem 3rem;
@@ -75,12 +75,15 @@ button.btn{
     font-family: var(--Livvic);
     cursor: pointer;
 }
-span{
+
+span {
     font-size: var(--Abel);
 }
-.container{
+
+.container {
     margin: 0 5vw;
 }
+
 /* global Classes  end*/
 
 
@@ -100,26 +103,29 @@ span{
     justify-content: space-between;
 }
 
-.nav .toggle-collapse{
+.nav .toggle-collapse {
     position: absolute;
     top: 0%;
     width: 90%;
     cursor: pointer;
     display: none;
 }
-.nav .toggle-collapse .toggle-icons{
+
+.nav .toggle-collapse .toggle-icons {
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
 }
-.nav .toggle-collapse .toggle-icons i{
+
+.nav .toggle-collapse .toggle-icons i {
     font-size: 1.4rem;
     color: var(--text-gray);
 }
 
-.collapse{
+.collapse {
     height: 30rem;
 }
+
 .nav .nav-items {
     display: flex;
     margin: 0;
@@ -134,11 +140,12 @@ span{
 
 }
 
-.nav-link:hover{
+.nav-link:hover {
     background-color: var(--midnight);
 }
-.nav-link:hover a{
-    color:var(--white);
+
+.nav-link:hover a {
+    color: var(--white);
 }
 
 .nav .nav-brand a {
@@ -149,49 +156,54 @@ span{
     font-size: 1.6rem;
 }
 
-.nav .social{
+.nav .social {
     padding: 1.4rem 0;
 }
-.nav .social i{
+
+.nav .social i {
     padding: 0.2rem;
 }
-.nav .social i:hover{
+
+.nav .social i:hover {
     color: #a1c4cf;
 }
 
 
 /* ------------Main-content---------- */
 
- main .site-title{
+main .site-title {
     background: url('../assets/Background-image.png');
     background-size: cover;
     height: 110vh;
     display: flex;
     justify-content: center;
- }
- main .site-title .site-background{
+}
+
+main .site-title .site-background {
     padding-top: 10rem;
     text-align: center;
     color: var(--white);
- }
+}
 
- main .site-title h1,h3{
+main .site-title h1,
+h3 {
     margin: .3rem;
- }
- main .site-title .btn{
+}
+
+main .site-title .btn {
     margin: 1.8rem;
     background: var(--sky);
- }
+}
 
- main .site-title .btn:hover{
+main .site-title .btn:hover {
     background: transparent;
     border: 1px solid var(--white);
     color: var(--white);
- }
+}
 
 /* blog */
 
-main .blog{
+main .blog {
     background: url('../assets/Abract01.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -199,10 +211,12 @@ main .blog{
     width: 100%;
     background-size: 65%;
 }
-main .blog .blog-post{
+
+main .blog .blog-post {
     padding-top: 6rem;
 }
-main .blog-post .blog-content{
+
+main .blog-post .blog-content {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -210,20 +224,22 @@ main .blog-post .blog-content{
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
-main .blog-content .blog-title{
+
+main .blog-content .blog-title {
     padding: 2rem 0;
 }
-main .blog-content .btn-blog{
-    padding: .7rem 2rem ;
+
+main .blog-content .btn-blog {
+    padding: .7rem 2rem;
     background: var(--sky);
     margin: .5rem;
 }
 
-.blog-content span{
+.blog-content span {
     display: block;
 }
 
-section .container .owl-nav{
+section .container .owl-nav {
     position: absolute;
     top: 0%;
     margin: 0 auto;
@@ -231,24 +247,32 @@ section .container .owl-nav{
 }
 
 .owl-nav .owl-next .owl-nav-next {
-	background: transparent !important;
-	color: var(--text-gray) !important;
-	font-size: 2rem !important;
-}
-.owl-nav .owl-prev .owl-nav-prev {
-	background: transparent !important;
-	color: var(--text-gray) !important;
-	font-size: 2rem !important;
+    background: transparent !important;
+    color: var(--text-gray) !important;
+    font-size: 2rem !important;
 }
 
-.owl-theme .owl-nav[class*='owl-']:hover{
+.owl-nav .owl-prev .owl-nav-prev {
+    background: transparent !important;
+    color: var(--text-gray) !important;
+    font-size: 2rem !important;
+}
+
+.owl-theme .owl-nav[class*='owl-']:hover {
     background: transparent !important;
     color: var(--midnight) !important;
 }
 
-.owl-theme .owl-nav[class*='owl-']{
+.owl-theme .owl-nav[class*='owl-'] {
     outline: none;
 }
+
+
+
+/* site-content */
+
+main .site-content
+
 /* ------------Main-content End---------- */
 
 
@@ -259,11 +283,14 @@ section .container .owl-nav{
 
 /* Viewport less then of ecual to 750px */
 
-@media only screen and (max-width:750px){
-    .nav .nav-menu, .nav .nav-items{
+@media only screen and (max-width:750px) {
+
+    .nav .nav-menu,
+    .nav .nav-items {
         flex-direction: column;
     }
-    .nav .toggle-collapse{
+
+    .nav .toggle-collapse {
         display: initial;
     }
 }
