@@ -336,8 +336,17 @@ main .post-title a{
     color: var(--text-gray);
     margin: 4rem 0;
 }
+.pagination a{
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: 0.3rem;
+    font-family: var(--Lexend);
 
-
+}
+.Pages{
+    background: var(--text-gray);
+    color: var(--white);
+}
 
 
 /* ------------Main-content End---------- */
