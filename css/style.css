@@ -331,6 +331,12 @@ main .post-title a{
 	background: var(--sky);
 }
 
+.pagination{
+    justify-content: center;
+    color: var(--text-gray);
+    margin: 4rem 0;
+}
+
 
 
 
