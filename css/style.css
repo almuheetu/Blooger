@@ -286,7 +286,8 @@ main .site-content {
 }
 
 main .post-content {
-    width: 100%;
+	width: 100%;
+	padding: 2rem 0rem;
 }
 
 main .site-content .post-content>.post-image,
@@ -348,6 +349,39 @@ main .post-title a{
     color: var(--white);
 }
 
+/* site-bar */
+
+.category-list{
+    font-family: var(--Livvic);
+}
+.list-items{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.list-items a{
+    color: black;
+}
+.site-content.Sidebar.popular-post.post-content{
+    padding: 1rem 0;
+}
+.site-content .Sidebar .popular-post h2{
+    padding-top: 10rem;
+}
+.site-content .Sidebar .popular-post .post-info{
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 1.5rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+.site-content .Sidebar .popular-post .post-title a{
+    font-size: 1rem;
+}
 
 /* ------------Main-content End---------- */
 
