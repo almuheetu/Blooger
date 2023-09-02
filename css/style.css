@@ -480,4 +480,8 @@ footer.footer.newsletters.form-elements{
     height: 50%;
     margin: .3rem .4rem;
 }
+.follow div i{
+    color: var(--white);
+    padding: 0 .4rem;
+}
     
