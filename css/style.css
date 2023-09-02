@@ -484,4 +484,14 @@ footer.footer.newsletters.form-elements{
     color: var(--white);
     padding: 0 .4rem;
 }
+.rights{
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+.rights a{
+    color: var(--white);
+}
+.about-us p {
+	padding-right: 54px;
+}
     
