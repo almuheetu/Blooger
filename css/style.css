@@ -474,4 +474,10 @@ footer.footer.newsletters.form-elements{
     padding: .5rem .7rem;
     cursor: pointer;
 }
+.instagram div>img{
+    display: block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
     
