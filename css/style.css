@@ -452,7 +452,7 @@ footer.footer .container>div{
     padding: 3rem .9rem;
 }
 
-.about-us h2{
+.footer .container h2{
     color: var(--white);
 }
 
@@ -460,7 +460,18 @@ footer.footer.newsletters.form-elements{
     background: black;
     display: inline-block;
 }
-.form-elements input{
+.form-elements input {
+	padding: .5rem .7rem;
+	border: none;
+	background: transparent;
+	color: var(--white);
+	font-family: var(--Josefin);
+	font-size: 1rem;
+	width: 60%;
+}
+.form-elements span{
+    background: var(--sky);
     padding: .5rem .7rem;
+    cursor: pointer;
 }
     
