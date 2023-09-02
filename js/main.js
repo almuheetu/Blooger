@@ -1,10 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     $nav = $('.nav');
     $toggleCollapse = $('.toggle-collapse');
 
 
-    $toggleCollapse.click(function(){
+    $toggleCollapse.click(function () {
         $nav.toggleClass('collapse')
     });
 
@@ -17,6 +17,6 @@ $(document).ready(function(){
         autoplayTimeout: 2000,
         dots: false,
         nav: true,
-        navText:[$('.owl-navigation .owl-nav-prev'),$('.owl-navigation .owl-nav-next')]
+        navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
     });
 });

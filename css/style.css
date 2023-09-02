@@ -455,4 +455,12 @@ footer.footer .container>div{
 .about-us h2{
     color: var(--white);
 }
+
+footer.footer.newsletters.form-elements{
+    background: black;
+    display: inline-block;
+}
+.form-elements input{
+    padding: .5rem .7rem;
+}
     
