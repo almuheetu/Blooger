@@ -384,8 +384,8 @@ main .post-title a{
 }
 
 
-.newsletter{
-    padding-top: 3rem;
+.newsletter {
+	padding-top: 12rem;
 }
 .form-element{
     padding: .5rem 2rem;
@@ -403,6 +403,21 @@ main .post-title a{
 	padding: 0.8rem 33% !important;
 	margin: 1rem 0 !important;
 	background: var(--sky) !important;
+}
+
+
+
+.popular-tags{
+    padding: 5rem 0;
+}
+.tags {
+	padding-right: 1.5rem;
+}
+.tag{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
 }
 /* ------------Main-content End---------- */
 
