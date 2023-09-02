@@ -89,10 +89,11 @@ span {
     color: var(--text-gray);
 }
 
-p{
+p {
     font-family: var(--Lexend);
     color: var(--text-light);
 }
+
 /* global Classes  end*/
 
 
@@ -286,8 +287,8 @@ main .site-content {
 }
 
 main .post-content {
-	width: 100%;
-	padding: 2rem 0rem;
+    width: 100%;
+    padding: 2rem 0rem;
 }
 
 main .site-content .post-content>.post-image,
@@ -305,56 +306,60 @@ main .post-info {
     border-radius: 3rem;
 }
 
-main .site-content .post-content> .post-image>div{
+main .site-content .post-content>.post-image>div {
     overflow: hidden;
 }
-main .site-content .post-content> .post-image .img{
+
+main .site-content .post-content>.post-image .img {
     width: 100%;
     transition: all 1s ease;
 }
 
-main .site-content .post-content> .post-image .img:hover{
+main .site-content .post-content>.post-image .img:hover {
     transform: scale(1.3);
 }
 
-main .post-info span{
+main .post-info span {
     margin: 0.5rem;
 }
 
-main .post-title a{
+main .post-title a {
     font-family: var(--Anton);
     font-size: 1.5rem;
 }
 
 .post-btn {
-	border-radius: 0 !important;
-	padding: .7rem 1.5rem !important;
-	background: var(--sky);
+    border-radius: 0 !important;
+    padding: .7rem 1.5rem !important;
+    background: var(--sky);
 }
 
-.pagination{
+.pagination {
     justify-content: center;
     color: var(--text-gray);
     margin: 4rem 0;
 }
-.pagination a{
+
+.pagination a {
     padding: .6rem .9rem;
     border-radius: 2rem;
     margin: 0.3rem;
     font-family: var(--Lexend);
 
 }
-.Pages{
+
+.Pages {
     background: var(--text-gray);
     color: var(--white);
 }
 
 /* site-bar */
 
-.category-list{
+.category-list {
     font-family: var(--Livvic);
 }
-.list-items{
+
+.list-items {
     background: var(--sky);
     padding: .4rem 1rem;
     margin: .8rem 0;
@@ -363,34 +368,41 @@ main .post-title a{
     display: flex;
     justify-content: space-between;
 }
-.list-items a{
+
+.list-items a {
     color: black;
 }
-.site-content.Sidebar.popular-post.post-content{
+
+.site-content.Sidebar.popular-post.post-content {
     padding: 1rem 0;
 }
-.site-content .Sidebar .popular-post h2{
+
+.site-content .Sidebar .popular-post h2 {
     padding-top: 10rem;
 }
-.site-content .Sidebar .popular-post .post-info{
+
+.site-content .Sidebar .popular-post .post-info {
     padding: .4rem .1rem !important;
     bottom: 0rem !important;
     left: 1.5rem !important;
     border-radius: 0rem !important;
     background: white !important;
 }
-.site-content .Sidebar .popular-post .post-title a{
+
+.site-content .Sidebar .popular-post .post-title a {
     font-size: 1rem;
 }
 
 
 .newsletter {
-	padding-top: 12rem;
+    padding-top: 12rem;
 }
-.form-element{
+
+.form-element {
     padding: .5rem 2rem;
 }
-.input-element{
+
+.input-element {
     width: 80%;
     height: 1.9rem;
     padding: .3rem .5rem;
@@ -399,31 +411,44 @@ main .post-title a{
 }
 
 .form-btn {
-	border-radius: 0 !important;
-	padding: 0.8rem 33% !important;
-	margin: 1rem 0 !important;
-	background: var(--sky) !important;
+    border-radius: 0 !important;
+    padding: 0.8rem 33% !important;
+    margin: 1rem 0 !important;
+    background: var(--sky) !important;
 }
 
 
 
-.popular-tags{
+.popular-tags {
     padding: 5rem 0;
 }
+
 .tags {
-	padding-right: 1.5rem;
+    padding-right: 1.5rem;
 }
-.tag{
+
+.tag {
     background: var(--sky);
     padding: .4rem 1rem;
     border-radius: 3rem;
     margin: .4rem .6rem;
 }
+
 /* ------------Main-content End---------- */
 
-
-
-
-
-
-
+/* Footer */
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+footer.footer .container>div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+    
