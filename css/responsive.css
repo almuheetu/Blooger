@@ -18,6 +18,12 @@
     footer.footer .container {
         grid-template-columns: repeat(1, 1fr) !important;
     }
+    main .site-title {
+        height: 70vh;
+    }
+    main .blog {
+        height: 70vh;
+    }
 }
 
 @media only screen and (max-width:1130px) {
@@ -35,13 +41,19 @@
     footer.footer .container {
         grid-template-columns: repeat(2, 1fr);
     }
+    main .site-title {
+        height: 80vh;
+    }
+    main .blog {
+        height: 70vh;
+    }
 
 }
 
 @media only screen and (max-width:520px) {
-    .blog{
-        height: 125vh;
-    }
+    /* .blog{
+        height: 100vh !important;
+    } */
 
     .post-info{
         display: none;
@@ -52,6 +64,15 @@
     .rights{
         padding: 0 1.4rem;
         text-align: center;
+    }
+    .toggle-collapse{
+        width: 80% !important;
+    }
+    main .site-title {
+        height: 50vh;
+    }
+    main .blog {
+        height: 80vh;
     }
 
 }

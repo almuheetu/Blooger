@@ -101,14 +101,13 @@ p {
 /* navbar */
 
 .nav {
-    background: #fff;
-    padding: 0 2rem;
-    height: 0rem;
-    min-height: 10vh;
-    overflow: hidden;
-    transition: height 1s ease-in-out;
+	background: #fff;
+	padding: 0 2rem;
+	height: 0rem;
+	min-height: 7vh;
+	overflow: hidden;
+	transition: height 1s ease-in-out;
 }
-
 .nav .nav-menu {
     justify-content: space-between;
 }
@@ -142,12 +141,11 @@ p {
 }
 
 .nav .nav-items .nav-link {
-    padding: 1.6rem 1rem;
-    font-size: 1.1rem;
-    position: relative;
-    font-family: var(--Abel);
-    font-size: 1.1rem;
-
+	padding: 1.4rem 1rem;
+	position: relative;
+	font-family: var(--Abel);
+	font-size: 1.1rem;
+	margin-top: 5px;
 }
 
 .nav-link:hover {
