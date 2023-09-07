@@ -24,6 +24,9 @@
     main .blog {
         height: 70vh;
     }
+    .nav {
+        min-height: 7vh;
+    }
 }
 
 @media only screen and (max-width:1130px) {
@@ -42,18 +45,18 @@
         grid-template-columns: repeat(2, 1fr);
     }
     main .site-title {
-        height: 80vh;
+        height: 70vh;
     }
     main .blog {
         height: 70vh;
+    }
+    .nav {
+        min-height: 7vh;
     }
 
 }
 
 @media only screen and (max-width:520px) {
-    /* .blog{
-        height: 100vh !important;
-    } */
 
     .post-info{
         display: none;
@@ -73,6 +76,9 @@
     }
     main .blog {
         height: 80vh;
+    }
+    .nav {
+        min-height: 7vh;
     }
 
 }
