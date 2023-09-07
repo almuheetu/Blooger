@@ -10,4 +10,27 @@
     .nav .toggle-collapse {
         display: initial;
     }
+    .site-content {
+        grid-template-columns: 100% !important;
+    }
+    footer.footer .container {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media only screen and (max-width:1130px) {
+
+    .post-info {
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+    .post-infos {
+        display: none;
+    }
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }

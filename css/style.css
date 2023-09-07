@@ -494,4 +494,18 @@ footer.footer.newsletters.form-elements{
 .about-us p {
 	padding-right: 54px;
 }
+.move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%; 
+}
+.move-up span{
+    color: var(--midnight);
+    
+}
+.move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+    
+}
     
